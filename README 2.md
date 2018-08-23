@@ -1,4 +1,0 @@
-# TechTalk
-
-***
-Official TechTalk website!
