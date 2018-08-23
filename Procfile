@@ -1,0 +1,1 @@
+web: gunicorn TechTalk.wsgi:application --log-file -

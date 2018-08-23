@@ -1,0 +1,74 @@
+{% extends "root/main.html" %} {% block bodyclass %}
+
+<body class="page page-template">
+  {% endblock %} {% block bodycontent %}
+  <div class="csi-container ">
+    <section>
+      <div class="csi-banner csi-banner-inner">
+        <div class="csi-banner-style">
+          <div class="csi-inner">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="csi-heading-area">
+                    <div class="csi-heading">
+                      <h2 class="title">Sponsors</h2>
+                    </div>
+                    <ul class="breadcrumb">
+                      <li><a href="/index"><i class="icon-home6"></i>Home</a></li>
+                      <li class="active">Sponsors</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--//.ROW-->
+            </div>
+          </div>
+          <!-- //.INNER -->
+        </div>
+      </div>
+    </section>
+    <!--Banner END-->
+
+
+    {% load static %}
+    <!--SPONSORED-->
+    <section>
+      <div id="csi-sponsors" class="csi-sponsors">
+        <div class="csi-inner-bg">
+          <div class="csi-inner">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="sponsors-area">
+                    <div class="single">
+                      <a class="" href="http://hackerspace.work"><img src="{% static 'root/img/sponsors/hackerspace.png' %}" alt='' /></a>
+                      <!--<a class="" href="#"><img src="assets/img/sponsors/sponsor1.png" alt=""/></a>-->
+                    </div>
+                  </div>
+                </div>
+                <!--//col-->
+              </div>
+              <!--//row-->
+              <!--<div class="row">
+                            <div class="col-xs-12">
+                                <h3 class="sponsored-heading">Sponsors category 2</h3>
+                                <div class="sponsors-area">
+                                    <div class="single">
+                                        <p> Images here </p>-->
+              <!--<a class="" href="#"><img src="root/img/sponsors/sponsor1.png" alt=""/></a>-->
+              <!--</div>
+                                </div>
+                            </div>
+                        </div>-->
+              <!--//row-->
+            </div>
+            <!--//container-->
+          </div>
+        </div>
+        <!--//csi-inner-->
+      </div>
+    </section>
+  </div>
+</body>
+{% endblock %}

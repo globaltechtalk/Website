@@ -1,0 +1,132 @@
+{% extends "root/main.html" %} {% block bodyclass %}
+
+<body class="page page-template">
+  {% endblock %} {% block bodycontent %}
+
+  <div class="csi-container ">
+    <!-- ***  ADD YOUR SITE CONTENT HERE *** -->
+
+    <!--HEADER-->
+    {% load static %}
+    <section>
+      <div class="csi-banner csi-banner-inner">
+        <div class="csi-banner-style">
+          <div class="csi-inner">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="csi-heading-area">
+                    <div class="csi-heading">
+                      <h2 class="title">Upcoming Meetups</h2>
+                    </div>
+                    <ul class="breadcrumb">
+                      <li><a href="/index"><i class="icon-home6"></i>Home</a></li>
+                      <li class="active">Upcoming Meetups</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--//.ROW-->
+            </div>
+          </div>
+          <!-- //.INNER -->
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="page-header" style="text-align: center">
+        <h1>Upcoming Meetups</h1>
+      </div>
+      <div class="row active-with-click">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <article class="material-card Blue">
+            <h2>
+                <span class="truncate">TechTalks</span>
+              </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="{% static 'root/img/upcoming/aug12.jpeg' %}">
+              </div>
+              <div class="mc-description">
+                <strong>TechTalks + PeerLyst + CyberFrat + DigitalOcean Meetup</strong><br>
+                Topics: Cloud Security‍ & Best Practices in Digital Ocean Cloud, Javascript and the event loop and GSOC Student
+                <br>Time : 1100 to 1400
+              </div>
+            </div>
+            <a class="mc-btn-action">
+                <i class="fa fa-bars"></i>
+              </a>
+            <div class="mc-footer">
+              <table>
+                <tr>
+                  <td>Sunday, August 12, 2018</td>
+                  <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                  <td><a href="https://goo.gl/forms/mhWYyHiLhEttuwF33" class="csi-btn csi-scroll" target="_blank">RSVP</a></td>
+                </tr>
+              </table>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <article class="material-card Cyan">
+            <h2>
+              <span class="truncate">Bear-To-Bull Market Meetup</span>
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="{% static 'root/img/upcoming/bear_to_bull.jpeg' %}">
+              </div>
+              <div class="mc-description">
+                <strong>Bear-To-Bull Market Meetup</strong><br>
+                It's the usual drill. Come. Chill with cool crypto people. Learn about blockchain and its use cases. Get shilled on a few ICOs. Go home.
+                <br>Time : 1615 to 1815
+              </div>
+            </div>
+            <a class="mc-btn-action">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="mc-footer">
+              <table>
+                <tr>
+                  <td>Saturday, September 1, 2018</td>
+                  <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                  <td><a class="csi-btn csi-scroll" target="_blank">RSVP</a></td>
+                </tr>
+              </table>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+</body>
+{% endblock %} {% block scriptcontent %}
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+{% endblock %} {% block stylecontent %}
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static 'root/css/material-cards.css' %}">
+<style type="text/css">
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    background-color: #ECEFF1;
+    color: #37474F;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 200;
+  }
+</style>
+{% endblock %}

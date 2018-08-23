@@ -1,0 +1,189 @@
+{% extends "root/main.html" %} {% block bodyclass %}
+
+<body class="page page-template">
+  {% endblock %} {% block bodycontent %}
+
+  <div class="csi-container ">
+    <!-- ***  ADD YOUR SITE CONTENT HERE *** -->
+
+    <!--HEADER-->
+
+    <section>
+      <div class="csi-banner csi-banner-inner">
+        <div class="csi-banner-style">
+          <div class="csi-inner">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="csi-heading-area">
+                    <div class="csi-heading">
+                      <h2 class="title">About Us</h2>
+                    </div>
+                    <ul class="breadcrumb">
+                      <li><a href="/index"><i class="icon-home6"></i>Home</a></li>
+                      <li class="active">About Us</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--//.ROW-->
+            </div>
+          </div>
+          <!-- //.INNER -->
+        </div>
+      </div>
+    </section>
+
+    {% load static %}
+
+    <!--ABOUT-->
+
+    <section>
+        <div id="csi-about" class="csi-about">
+            <div class="csi-inner">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xs-12">
+                          <div class="csi-heading">
+                            <h2 class="heading" style="opacity:0.5">let us introduce ourselves</h2>
+                          </div>
+                        </div>
+                        <div class="col-sm-12 col-md-5">
+                            <div class="csi-about-img">
+                                <img src="{% static 'root/img/logo.png' %}" alt="about">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-7">
+                            <div class="csi-about-content-area csi-about-content-area-left">
+                                <div class="csi-heading">
+                                    <h3 class="subheading">Heading1</h3>
+                                </div>
+                                <div class="csi-about-content">
+                                    <p class="text">
+                                      a paragraph
+                                    </p>
+                                </div>
+                                <div class="csi-heading">
+                                    <h3 class="subheading">Heading2</h3>
+                                </div>
+                                <div class="csi-about-content">
+                                    <p class="text">
+                                      a paragraph
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- //.CONTAINER -->
+            </div><!-- //.INNER -->
+        </div>
+    </section>
+
+    <section>
+      <div id="csi-speakers" class="csi-speakers">
+        <div class="csi-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="csi-heading">
+                  <h2 class="heading" style="opacity:0.5">The Team</h2>
+                </div>
+              </div>
+            </div>
+            <!--//.ROW-->
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="csi-single-speaker">
+                  <figure>
+                    <img src="{% static 'root/img/team/shrreya.jpg' %}" alt="speaker" />
+                    <figcaption>
+                      <div class="social-group">
+                        <a class="sp-tw" href="https://twitter.com/behll_shrreya" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a class="sp-in" href="https://www.linkedin.com/in/shrreyabehll/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a class="sp-in" href="https://github.com/VictoriousAura" target="_blank"><i class="fa fa-github"></i></a>
+                      </div>
+                      <div class="speaker-info">
+                        <h3 class="title" style="text-align: center;">Shrreya Behll</h3>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="csi-single-speaker">
+                  <figure>
+                    <img src="{% static 'root/img/team/manas.jpg' %}" alt="speaker" />
+                    <figcaption>
+                      <div class="social-group">
+                        <a href="https://gitlab.com/Manas-kashyap" target="_blank"><i class="fa fa-gitlab"></i></a>
+                        <a class="sp-in" href="https://www.linkedin.com/in/manas-kashyap-1a2262130/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                      <div class="speaker-info">
+                        <h3 class="title" style="text-align: center;">Manas Kashyap</h3>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="csi-single-speaker">
+                  <figure>
+                    <img src="{% static 'root/img/team/amit.jpeg' %}" alt="speaker" />
+                    <figcaption>
+                      <div class="speaker-info">
+                        <h3 class="title" style="text-align: center;">Amit</h3>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="csi-single-speaker">
+                  <figure>
+                    <img src="{% static 'root/img/team/arpit.jpeg' %}" alt="speaker" />
+                    <figcaption>
+                      <div class="speaker-info">
+                        <h3 class="title" style="text-align: center;">Arpit</h3>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="csi-single-speaker">
+                  <figure>
+                    <img src="{% static 'root/img/team/shubham.jpeg' %}" alt="speaker" />
+                    <figcaption>
+                      <div class="speaker-info">
+                        <h3 class="title" style="text-align: center;">Shubham</h3>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="csi-single-speaker">
+                  <figure>
+                    <img src="{% static 'root/img/team/amitk.jpeg' %}" alt="speaker" />
+                    <figcaption>
+                      <div class="social-group">
+                        <a href="https://github.com/Amit95820" target="_blank"><i class="fa fa-github"></i></a>
+                      </div>
+                      <div class="speaker-info">
+                        <h3 class="title" style="text-align: center;">Amit Kumar</h3>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- //.CONTAINER -->
+        </div>
+        <!-- //.INNER -->
+      </div>
+    </section>
+  </div>
+</body>
+{% endblock %}
