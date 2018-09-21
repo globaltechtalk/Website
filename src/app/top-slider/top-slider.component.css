@@ -1,0 +1,31 @@
+.carousel-bg .carousel-inner  .carousel-item {
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+    background-repeat: no-repeat;
+}
+
+.carousel, .carousel-item, .active {
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+}
+
+/* .carousel-caption {
+    width: 50%;
+    margin: 0 auto;
+} */
+
+
+.first-slide {
+    background-image: url('../../assets/img/slider1.jpg');
+}
+
+.second-slide {
+    background-image: url('../../assets/img/slider2.jpg');
+}
+
+.third-slide {
+    background-image: url('../../assets/img/slider3.jpg');
+}
