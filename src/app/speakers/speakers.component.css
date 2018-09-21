@@ -1,0 +1,31 @@
+.speakers { overflow: hidden; }
+
+h2 { color: #212739; font-family: Oswald, sans-serif; margin-bottom: 30px; }
+
+.modal1 { padding: 1rem; }
+
+/*.speaker-info { border-radius: 4px; background: rgba(241, 241, 241, .60); padding: 60px 200px; }*/
+
+.shashank-pro { height: 136px; width: 136px; border-radius: 50%; margin: 0 auto; display: block;
+  margin-bottom: 30px;
+}
+
+.pro-name { color: #313f47; margin-bottom: 20px; letter-spacing: 5px; font-size: 28px; }
+
+h6 { letter-spacing: 3px; color: #858585; font-size: 13px; }
+
+/*.speaker1 {height: 300px; width: 310px; padding-top: 20px; }
+.speaker2 {height: 300px; width: 310px; padding-top: 20px; }
+.speaker3 {height: 300px; width: 310px; padding-top: 20px; }*/
+
+/*.speaker1 { height: 400px; width: 400px; padding-top: 20px; }*/
+/*.speaker2 { height: 400px; width: 400px; padding-top: 20px; }*/
+/*.speaker3 { height: 400px; width: 400px; padding-top: 20px; }*/
+
+/*.img { max-width: 100%; width: 310px; height: 280px; }*/
+
+.speaker { display: inline-block; width: 30.33%; }
+/*.speaker-slider { margin: 0 auto; }*/
+.speaker1 { margin-right: 10px; }
+.speaker2 { margin-right: 10px; }
+.img { max-width: 100%; width: 240px; height: 240px; border-radius: 50%; }
