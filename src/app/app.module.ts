@@ -15,6 +15,8 @@ import { SponsersComponent } from './sponsers/sponsers.component';
 import { UpcomMeetingsComponent } from './upcom-meetings/upcom-meetings.component';
 import { ContactComponent } from './contact/contact.component';
 import { TopSliderComponent } from './top-slider/top-slider.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { ShashankComponent } from './shashank/shashank.component';
 
 @NgModule({
   declarations: [
@@ -29,10 +31,11 @@ import { TopSliderComponent } from './top-slider/top-slider.component';
     SponsersComponent,
     UpcomMeetingsComponent,
     ContactComponent,
-    TopSliderComponent
+    TopSliderComponent,
+    ShashankComponent
   ],
   imports: [
-    BrowserModule,NgbModule,AngularFontAwesomeModule
+    BrowserModule,NgbModule,AngularFontAwesomeModule, AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

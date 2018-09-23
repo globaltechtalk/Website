@@ -1,4 +1,4 @@
-.speakers { overflow: hidden; }
+.speakers { overflow: hidden; padding-bottom: 50px; padding-top: 40px; }
 
 h2 { color: #212739; font-family: Oswald, sans-serif; margin-bottom: 30px; }
 
@@ -20,10 +20,10 @@ h6 { letter-spacing: 3px; color: #858585; font-size: 13px; }
 /*.speaker2 { height: 400px; width: 400px; padding-top: 20px; }*/
 /*.speaker3 { height: 400px; width: 400px; padding-top: 20px; }*/
 
-/*.img { max-width: 100%; width: 310px; height: 280px; }*/
+.name { background-color: transparent; }
 
 .speaker { display: inline-block; width: 30.33%; }
 /*.speaker-slider { margin: 0 auto; }*/
 .speaker1 { margin-right: 10px; }
 .speaker2 { margin-right: 10px; }
-.img { max-width: 100%; width: 240px; height: 240px; border-radius: 50%; }
+.img { max-width: 100%; width: 240px; height: 240px; border-radius: 50%; margin-bottom: 30px; }
