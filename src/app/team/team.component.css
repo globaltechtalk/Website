@@ -1,0 +1,43 @@
+.team { padding: 30px 0; }
+
+.team-members {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+}
+
+h2 {
+  color: #212739;
+  opacity: 0.5;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.team-members .team-member {
+  display: table-cell;
+  width: 1%;
+  height: 400px;
+  transition: 0.6s ease-in-out all;
+  overflow: hidden;
+  position: relative;
+  min-width: 65px;
+}
+
+img {
+  width: 210px;
+  height: 350px;
+  transition: 0.6s ease-in-out all;
+}
+
+/*.team:hover .team-member:hover {
+  width: 100%;
+}*/
+
+img:hover {
+  width: 250px;
+}
+
+/*.team:hover .team-member:hover img:hover {
+  width: 100%;
+}*/

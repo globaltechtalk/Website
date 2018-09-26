@@ -1,0 +1,20 @@
+.navbar { background: rgba(33,39,57,.95); }
+
+.navbar-brand { color: #fff; font-family: 'Megrim', cursive; font-weight: bold; font-size: 30px;
+  letter-spacing: 1.5px;
+}
+
+.navbar-light .navbar-nav  .active > .nav-link { color: #fff; text-transform: uppercase; }
+
+.navbar-light .navbar-brand:hover { color: #fff; }
+
+.navbar-light .navbar-nav .nav-link { color: #fff; text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn { border: none; background-color: transparent; }
+
+.btn:focus { box-shadow: none !important; }
+
+.dropdown-toggle::after { margin-left: 0.5rem; }
+/*.navbar-collapse .navbar-nav { float: right; }*/
